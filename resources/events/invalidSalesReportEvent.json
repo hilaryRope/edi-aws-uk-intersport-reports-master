@@ -1,0 +1,15 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "b24.messages.landing.area"
+        },
+        "object": {
+          "key": "invalidReport.json",
+          "body": "{\r\n\t\"b24Message\": [{\r\n\t\t\"\": {\r\n\t\t\t\"environment\": \"Production\",\r\n\t\t\t\"documentDate\": \"2015-11-09\",\r\n\t\t\t\"periodStartDate\": \"2015-11-01\",\r\n\t\t\t\"periodEndDate\": \"2015-11-08\",\r\n\t\t\t\"buyer\": \"4038925000016\",\r\n\t\t\t\"supplier\": \"7640146810007\",\r\n\t\t\t\"lines\": [{\r\n\t\t\t\t\t\"ean\": \"7640165317761\",\r\n\t\t\t\t\t\"itemID\": \"102191005\",\r\n\t\t\t\t\t\"netPrice\": 67.06,\r\n\t\t\t\t\t\"salesPrice\": 159.95,\r\n\t\t\t\t\t\"salesQuantity\": 1,\r\n\t\t\t\t\t\"returnedQuantity\": 1,\r\n\t\t\t\t\t\"location\": \"4260373430019\"\r\n\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"ean\": \"7630040505581\",\r\n\t\t\t\t\t\"itemID\": \"279279003\",\r\n\t\t\t\t\t\"netPrice\": 56.57,\r\n\t\t\t\t\t\"salesPrice\": 134.95,\r\n\t\t\t\t\t\"salesQuantity\": 10,\r\n\t\t\t\t\t\"returnedQuantity\": 0,\r\n\t\t\t\t\t\"location\": \"4038925000191\"\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t}\r\n\t}]\r\n}"
+        }
+      }
+    }
+  ]
+}

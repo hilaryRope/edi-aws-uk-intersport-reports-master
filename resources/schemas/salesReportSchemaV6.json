@@ -1,0 +1,201 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/root.json/",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "b24Message"
+  ],
+  "properties": {
+    "b24Message": {
+      "$id": "#/properties/b24Message",
+      "type": "array",
+      "title": "The B24message Schema",
+      "items": {
+        "$id": "#/properties/b24Message/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "slsrpt"
+        ],
+        "properties": {
+          "slsrpt": {
+            "$id": "#/properties/b24Message/items/properties/slsrpt",
+            "type": "object",
+            "title": "The Slsrpt Schema",
+            "required": [
+              "environment",
+              "documentDate",
+              "periodStartDate",
+              "periodEndDate",
+              "buyer",
+              "supplier",
+              "msgRefNo",
+              "lines"
+            ],
+            "properties": {
+              "environment": {
+                "$id": "#/properties/b24Message/items/properties/slsrpt/properties/environment",
+                "type": "string",
+                "title": "The Environment Schema",
+                "default": "",
+                "examples": [
+                  "Production"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "documentDate": {
+                "$id": "#/properties/b24Message/items/properties/slsrpt/properties/documentDate",
+                "type": "string",
+                "title": "The Documentdate Schema",
+                "default": "",
+                "examples": [
+                  "2015-11-09"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "periodStartDate": {
+                "$id": "#/properties/b24Message/items/properties/slsrpt/properties/periodStartDate",
+                "type": "string",
+                "title": "The Periodstartdate Schema",
+                "default": "",
+                "examples": [
+                  "2015-11-01"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "periodEndDate": {
+                "$id": "#/properties/b24Message/items/properties/slsrpt/properties/periodEndDate",
+                "type": "string",
+                "title": "The Periodenddate Schema",
+                "default": "",
+                "examples": [
+                  "2015-11-08"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "buyer": {
+                "$id": "#/properties/b24Message/items/properties/slsrpt/properties/buyer",
+                "type": "string",
+                "title": "The Buyer Schema",
+                "default": "",
+                "examples": [
+                  "4038925000016"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "supplier": {
+                "$id": "#/properties/b24Message/items/properties/slsrpt/properties/supplier",
+                "type": "string",
+                "title": "The Supplier Schema",
+                "default": "",
+                "examples": [
+                  "7640146810007"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "msgRefNo": {
+                "$id": "#/properties/b24Message/items/properties/slsrpt/properties/msgRefNo",
+                "type": "string",
+                "title": "The Msgrefno Schema",
+                "default": "",
+                "examples": [
+                  "I02065870016645"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "lines": {
+                "$id": "#/properties/b24Message/items/properties/slsrpt/properties/lines",
+                "type": "array",
+                "title": "The Lines Schema",
+                "items": {
+                  "$id": "#/properties/b24Message/items/properties/slsrpt/properties/lines/items",
+                  "type": "object",
+                  "title": "The Items Schema",
+                  "required": [
+                    "ean",
+                    "itemID",
+                    "netPrice",
+                    "salesPrice",
+                    "salesQuantity",
+                    "returnedQuantity",
+                    "location"
+                  ],
+                  "properties": {
+                    "ean": {
+                      "$id": "#/properties/b24Message/items/properties/slsrpt/properties/lines/items/properties/ean",
+                      "type": "string",
+                      "title": "The Ean Schema",
+                      "default": "",
+                      "examples": [
+                        "7640165317761"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "itemID": {
+                      "$id": "#/properties/b24Message/items/properties/slsrpt/properties/lines/items/properties/itemID",
+                      "type": "string",
+                      "title": "The Itemid Schema",
+                      "default": "",
+                      "examples": [
+                        "102191005"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "netPrice": {
+                      "$id": "#/properties/b24Message/items/properties/slsrpt/properties/lines/items/properties/netPrice",
+                      "type": "number",
+                      "title": "The Netprice Schema",
+                      "default": 0.0,
+                      "examples": [
+                        67.06
+                      ]
+                    },
+                    "salesPrice": {
+                      "$id": "#/properties/b24Message/items/properties/slsrpt/properties/lines/items/properties/salesPrice",
+                      "type": "number",
+                      "title": "The Salesprice Schema",
+                      "default": 0.0,
+                      "examples": [
+                        159.95
+                      ]
+                    },
+                    "salesQuantity": {
+                      "$id": "#/properties/b24Message/items/properties/slsrpt/properties/lines/items/properties/salesQuantity",
+                      "type": "integer",
+                      "title": "The Salesquantity Schema",
+                      "default": 0,
+                      "examples": [
+                        1
+                      ]
+                    },
+                    "returnedQuantity": {
+                      "$id": "#/properties/b24Message/items/properties/slsrpt/properties/lines/items/properties/returnedQuantity",
+                      "type": "integer",
+                      "title": "The Returnedquantity Schema",
+                      "default": 0,
+                      "examples": [
+                        1
+                      ]
+                    },
+                    "location": {
+                      "$id": "#/properties/b24Message/items/properties/slsrpt/properties/lines/items/properties/location",
+                      "type": "string",
+                      "title": "The Location Schema",
+                      "default": "",
+                      "examples": [
+                        "4260373430019"
+                      ],
+                      "pattern": "^(.*)$"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

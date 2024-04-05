@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "b24Message": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "invrpt": {
+              "type": "object",
+              "properties": {
+                "environment": {
+                  "type": "string"
+                },
+                "documentDate": {
+                  "type": "string"
+                },
+                "buyer": {
+                  "type": "string"
+                },
+                "supplier": {
+                  "type": "string"
+                },
+                "msgRefNo": {
+                  "type": "string"
+                },
+                "lines": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "ean": {
+                          "type": "string"
+                        },
+                        "quantity": {
+                          "type": "integer"
+                        },
+                        "location": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "ean",
+                        "quantity",
+                        "location"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "ean": {
+                          "type": "string"
+                        },
+                        "quantity": {
+                          "type": "integer"
+                        },
+                        "location": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "ean",
+                        "quantity",
+                        "location"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "environment",
+                "documentDate",
+                "buyer",
+                "supplier",
+                "msgRefNo",
+                "lines"
+              ]
+            }
+          },
+          "required": [
+            "invrpt"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "b24Message"
+  ]
+}

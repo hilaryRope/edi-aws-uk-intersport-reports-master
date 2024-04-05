@@ -1,0 +1,75 @@
+{
+    "b24Message": {
+      "slsrpt": [
+        {
+          "action": "Add",
+          "documentDate": "2018-11-23",
+          "buyer": 1111111111111,
+          "supplier": 2222222222222,
+          "msgRefNo": "257_SALES",
+          "lines": [
+            {
+              "ean": 887791076793,
+              "action": "Add",
+              "netPrice": 70.00,
+              "salesPrice": 187.50,
+              "salesQuantity": 2.0,
+              "location": 4444444444444,
+              "saleDate": "2019-01-01",
+              "saleID": "K4448670"
+            },
+            {
+              "ean": 91207990799,
+              "action": "Add",
+              "netPrice": 100.00,
+              "salesPrice": 156.25,
+              "salesQuantity": 2.0,
+              "location": 4444444444444,
+              "saleDate": "2019-01-01",
+              "saleID": "K4448670"
+            },
+            {
+              "ean": 887791076793,
+              "action": "Add",
+              "netPrice": 70.00,
+              "salesPrice": 187.50,
+              "salesQuantity": 5.0,
+              "location": 4444444444444,
+              "saleDate": "2019-01-02",
+              "saleID": "K4448671"
+            },
+            {
+              "ean": 91207990799,
+              "action": "Add",
+              "netPrice": 100.00,
+              "salesPrice": 156.25,
+              "salesQuantity": 4.0,
+              "location": 4444444444444,
+              "saleDate": "2019-01-02",
+              "saleID": "K4448671"
+            },
+            {
+              "ean": 887791076793,
+              "action": "Add",
+              "netPrice": 70.00,
+              "salesPrice": 187.50,
+              "salesQuantity": 1.0,
+              "location": 4444444444444,
+              "saleDate": "2019-01-03",
+              "saleID": "K4448672"
+            },
+            {
+              "ean": 91207990799,
+              "action": "Add",
+              "netPrice": 100.00,
+              "salesPrice": 156.25,
+              "salesQuantity": 3.0,
+              "location": 4444444444444,
+              "saleDate": "2019-01-03",
+              "saleID": "K4448672"
+            }
+          ]
+        }
+      ]
+    }
+  }

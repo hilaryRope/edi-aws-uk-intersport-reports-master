@@ -1,0 +1,32 @@
+{
+  "b24Message": [{
+    "": {
+      "environment": "Production",
+      "documentDate": "2015-11-09",
+      "periodStartDate": "2015-11-01",
+      "periodEndDate": "2015-11-08",
+      "buyer": "4038925000016",
+      "supplier": "7640146810007",
+      "lines": [{
+        "ean": "7640165317761",
+        "itemID": "102191005",
+        "netPrice": 67.06,
+        "salesPrice": 159.95,
+        "salesQuantity": 1,
+        "returnedQuantity": 1,
+        "location": "4260373430019"
+
+      },
+        {
+          "ean": "7630040505581",
+          "itemID": "279279003",
+          "netPrice": 56.57,
+          "salesPrice": 134.95,
+          "salesQuantity": 10,
+          "returnedQuantity": 0,
+          "location": "4038925000191"
+        }
+      ]
+    }
+  }]
+}

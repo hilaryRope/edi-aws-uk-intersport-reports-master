@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "b24Message": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "slsrpt": {
+              "type": "object",
+              "properties": {
+                "environment": {
+                  "type": "string"
+                },
+                "documentDate": {
+                  "type": "string"
+                },
+                "periodStartDate": {
+                  "type": "string"
+                },
+                "periodEndDate": {
+                  "type": "string"
+                },
+                "buyer": {
+                  "type": "string"
+                },
+                "supplier": {
+                  "type": "string"
+                },
+                "msgRefNo": {
+                  "type": "string"
+                },
+                "lines": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "ean": {
+                          "type": "string"
+                        },
+                        "itemID": {
+                          "type": "string"
+                        },
+                        "netPrice": {
+                          "type": "number"
+                        },
+                        "salesPrice": {
+                          "type": "number"
+                        },
+                        "salesQuantity": {
+                          "type": "integer"
+                        },
+                        "returnedQuantity": {
+                          "type": "integer"
+                        },
+                        "location": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "ean",
+                        "itemID",
+                        "netPrice",
+                        "salesPrice",
+                        "salesQuantity",
+                        "returnedQuantity",
+                        "location"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "ean": {
+                          "type": "string"
+                        },
+                        "itemID": {
+                          "type": "string"
+                        },
+                        "netPrice": {
+                          "type": "number"
+                        },
+                        "salesPrice": {
+                          "type": "number"
+                        },
+                        "salesQuantity": {
+                          "type": "integer"
+                        },
+                        "returnedQuantity": {
+                          "type": "integer"
+                        },
+                        "location": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "ean",
+                        "itemID",
+                        "netPrice",
+                        "salesPrice",
+                        "salesQuantity",
+                        "returnedQuantity",
+                        "location"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "environment",
+                "documentDate",
+                "periodStartDate",
+                "periodEndDate",
+                "buyer",
+                "supplier",
+                "msgRefNo",
+                "lines"
+              ]
+            }
+          },
+          "required": [
+            "slsrpt"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "b24Message"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "b24.messages.landing.area"
+        },
+        "object": {
+          "key": "inventoryReport.json",
+          "body": "{\r\n  \"b24Message\":\r\n  [{\r\n    \"invrpt\":\r\n    {\r\n      \"environment\": \"Production\",\r\n      \"documentDate\": \"2015-11-09\",\r\n      \"buyer\": \"4038925000016\",\r\n      \"supplier\": \"7640146810007\",\r\n      \"msgRefNo\": \"I02065870016644\",\r\n      \"lines\":\r\n      [{\r\n        \"ean\": \"7640165317761\",\r\n        \"quantity\": 1,\r\n        \"location\": \"4260373430019\"\r\n      },\r\n        {\r\n          \"ean\": \"7630040505581\",\r\n          \"quantity\": 1,\r\n          \"location\": \"4038925000191\"\r\n        }]\r\n    }\r\n  }]\r\n}"
+        }
+      }
+    }
+  ]
+}

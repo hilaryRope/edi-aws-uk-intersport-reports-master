@@ -1,0 +1,24 @@
+{
+  "b24Message":
+  [{
+    "invrpt":
+    {
+      "environment": "Production",
+      "documentDate": "2015-11-09",
+      "buyer": "4038925000016",
+      "supplier": "7640146810007",
+      "msgRefNo": "I02065870016644",
+      "lines":
+      [{
+        "ean": "7640165317761",
+        "quantity": 1,
+        "location": "4260373430019"
+      },
+        {
+          "ean": "7630040505581",
+          "quantity": 1,
+          "location": "4038925000191"
+        }]
+    }
+  }]
+}
